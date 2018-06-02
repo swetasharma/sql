@@ -32,6 +32,8 @@ DATABASE KEYS AND INDEXES:
 
 AUTO_INCREMENT
 
+Often as we make multiple tables and need to JOIN them together we need an integer primary key for each row so we can efficiently add a reference to a row in some other table as a foreign key.
+
 CREATE TABLE users (user_id INT UNSIGNED NOT NULL AUTO_INCREMENT, name VARCHAR(128), email VARCHAR(128), PRIMARY KEY(user_id), INDEX(email))
 unsigned meaning positive only, not null means its required, auto_increment please supply it if I dont
 Primary key: which means we are going to use it a lot
@@ -41,7 +43,7 @@ INDEX: we are going to look up with WHERE clauses using this a lot.
 
 B-Trees are good for sorted kind of material and prefix material, especially like a string.
 
-
+A B-Tree is a tree data structure that keeps data sorteda and allows searches, sequential access, insertions, and deletions in logarithmic anortized time. The B-tree is optimized for systems that read and write large blocks of data. Is is commonly used in databases and file systems.
 
   
   
