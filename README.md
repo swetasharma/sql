@@ -53,5 +53,14 @@ A B-Tree is a tree data structure that keeps data sorteda and allows searches, s
 
 idea is there's a small amount of data that points to the higher chunks of data.
 
+Hashes:
+keys hash funciton hashes
+The values returned by a hash funmction are called hash values, hash codes. hash sums, checksums, or simply hashes
+this didnt take any talking to disk drive.
+
+
+
+ALTER TABLE Users ADD INDEX ( email );
+
   
   
