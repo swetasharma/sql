@@ -58,9 +58,9 @@ keys hash funciton hashes
 The values returned by a hash funmction are called hash values, hash codes. hash sums, checksums, or simply hashes
 this didnt take any talking to disk drive.
 
-
-
 ALTER TABLE Users ADD INDEX ( email );
+
+Relational Database Design:
 
   
   
