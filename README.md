@@ -47,9 +47,6 @@ There are techniques to greatly shorten the scan as long as you create data stru
 There's a coupple of differenr kinds of indexes, There's a Hash or Tree.
 The hash is used often in primary keys for exact matches and the Trees are used for sorting and prefix matches.
 
-
-
-
 B-Trees are good for sorted kind of material and prefix material, especially like a string.
 
 A B-Tree is a tree data structure that keeps data sorteda and allows searches, sequential access, insertions, and deletions in logarithmic anortized time. The B-tree is optimized for systems that read and write large blocks of data. Is is commonly used in databases and file systems.
