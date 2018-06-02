@@ -39,6 +39,15 @@ unsigned meaning positive only, not null means its required, auto_increment plea
 Primary key: which means we are going to use it a lot
 INDEX: we are going to look up with WHERE clauses using this a lot.
 
+Indexes: If you dont tell it to index something and you select something, it may have to scan the entire table and its likeoh that's going to take a while. if there's hundreds of thousands of records, these things can slow down.
+
+As a table gets large (they always do), scanning all the data to find a single row becomes bery costly.
+There are techniques to greatly shorten the scan as long as you create data structure and maintain those structures - like shortcuts.
+
+There's a coupple of differenr kinds of indexes, There's a Hash or Tree.
+The hash is used often in primary keys for exact matches and the Trees are used for sorting and prefix matches.
+
+
 
 
 B-Trees are good for sorted kind of material and prefix material, especially like a string.
