@@ -70,6 +70,8 @@ Database Normalization:
 
 Dont replicate vertically data.
 
+The rule of what we were trying to do was no vertical duplication of columns that has strings in them. It's okay to have vertical duplication  of columns that have integers.
+
 A foreign key is when a table has a  column containing a key that points to the primary key of another table.
 
 
