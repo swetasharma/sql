@@ -62,5 +62,23 @@ ALTER TABLE Users ADD INDEX ( email );
 
 Relational Database Design:
 
+Database design starts with a picture....
+
+so in building a data model you often ask, what is the first table? and usually you think about it is like, what is the core purpose of this application? 
+
+Database Normalization:
+
+Dont replicate vertically data.
+
+A foreign key is when a table has a  column containing a key that points to the primary key of another table.
+
+
+
+
+
+                                                                                            
+
+
+
   
   
