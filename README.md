@@ -76,6 +76,63 @@ A foreign key is when a table has a  column containing a key that points to the 
 
 
 
+The JOIN Operation:
+
+
+JOIN says more than one table and the ON clause says the rules upon which we can do this.
+
+Many to one relationship
+there could be many albums for one artist.
+
+album_id, title, artist_id     artist_id, name
+1 A 2                             1         X
+2 B 2                             2         Y
+
+Joining two tables without ON clause gives all possible combinations of rows.
+Throw away the non-matching rows is what the ON clause really does.
+
+
+What we want to see 
+The tables that hold the data
+How the tablesa are linked.
+
+
+ON DELETE CASCADE
+This is like saying, in this table we are pointing to a row in another table.
+We are telling MySql to "clean up" broken references.
+we do that to maintain database consistency.
+
+https://stackoverflow.com/questions/1027656/what-is-mysqls-default-on-delete-behavior
+
+we have done everything that's one to many relationships.
+
+
+and now we are going to do many-to-many relationships, which is kind of the other major way of connecting tables together.
+
+
+Many-To-Many:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                                                                                             
