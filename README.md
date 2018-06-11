@@ -105,12 +105,21 @@ we do that to maintain database consistency.
 https://stackoverflow.com/questions/1027656/what-is-mysqls-default-on-delete-behavior
 
 we have done everything that's one to many relationships.
-
-
 and now we are going to do many-to-many relationships, which is kind of the other major way of connecting tables together.
 
+so everything we have done so far is many to one. and that just means that you can have lots of rows that are like seven, seven, seven in the track and then there is seven over here, there is on seven
 
-Many-To-Many:
+Many-To-Many Relationships:
+
+problem is that you can have many users and you can have many courses and many users can be a member of many courses and many courses can have many users.
+
+we need to add a "connection" table with two foreign keys
+
+A book can have multiple authors and an author can write multiple books.
+
+we dont have a single primary key. we have a combination promary key or a concatenated primary key and so we just give it two things.
+
+
 
 
 
