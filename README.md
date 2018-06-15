@@ -133,6 +133,8 @@ HTTP FUNDAMENTALS:
 
 200 - OK Success!
 
+304 - Not Modified - jpg image sent in header that says only giv ene those modified and the browser will respond with http message 304 status code essentially that resource is not being modfified feel free to use your local copy instead of me pushing  all those 1 and 0 to you again.
+
 
 400 - Bad Request - http request not using proper syntax.
 401 - Unauthorized  Request - The client might need to provide some credentials before they can access resource .
