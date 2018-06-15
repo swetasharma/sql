@@ -122,6 +122,31 @@ we dont have a single primary key. we have a combination promary key or a concat
 
 
 
+HTTP FUNDAMENTALS:
+
+100 Informational 
+200 Successfull
+300 Redirection
+400 Client Error
+500 Server Error
+
+
+200 - OK Success!
+
+
+400 - Bad Request - http request not using proper syntax.
+401 - Unauthorized  Request - The client might need to provide some credentials before they can access resource .
+403 - Forbidden - you try to gain access to something that we do not want to hav eaccesss to and there is no possibility to get to this resource.
+404 - Not Found - Resource doesn't exist. you requested something that isn't there, the server could not locate it.
+
+500 - Internal Server Error - that could be because you had an exception inside of you applcation code and server was unable to the complete the response, it could also be a bug or problem in the server software itself
+
+503 - Service Unavailable - some servers will return 503 when they are under heavy load and cannot handle any additional connections, cannot process any additional request and it is essentially telling ti the client w are having a problem please try again later
+
+
+
+
+
 
 
 
