@@ -146,7 +146,7 @@ HTTP FUNDAMENTALS:
 503 - Service Unavailable - some servers will return 503 when they are under heavy load and cannot handle any additional connections, cannot process any additional request and it is essentially telling ti the client w are having a problem please try again later
 
 
-
+from an application perspective the request was a failure but from http perspective the request was successfully processed.
 
 
 
