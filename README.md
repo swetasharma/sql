@@ -151,6 +151,17 @@ from an application perspective the request was a failure but from http perspect
 
 
 
+HTTP (Application):
+is what we call an applicaition layer protocol because it allows two applicaitons to communicate over the network quite often one of the applicaiton is a web browser and the other application is a web server liek IIS or apache but the http specifications does  not say anything about how the messages actually move across the network and reach the server thats the job of lower layer protocols
+
+TCP (Transport Reliable): 
+they just open the cocket and write the data into it.
+
+Ip (Network): is responsible for taking pieces of information moving through all the switches and routers gateways amnd all the other devices that move nformation from one netwrok to next all around the world it does not guarantee deleivery that TCP job. Ip is also responsible for braking data into packets sometimes we call them as datagrams
+
+
+
+
 
 
 
