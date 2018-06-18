@@ -160,6 +160,7 @@ they just open the cocket and write the data into it.
 Ip (Network): is responsible for taking pieces of information moving through all the switches and routers gateways amnd all the other devices that move nformation from one netwrok to next all around the world it does not guarantee deleivery that TCP job. Ip is also responsible for braking data into packets sometimes we call them as datagrams
 
 
+parallel connections:
 
 
 
