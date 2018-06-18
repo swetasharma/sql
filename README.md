@@ -160,7 +160,22 @@ they just open the cocket and write the data into it.
 Ip (Network): is responsible for taking pieces of information moving through all the switches and routers gateways amnd all the other devices that move nformation from one netwrok to next all around the world it does not guarantee deleivery that TCP job. Ip is also responsible for braking data into packets sometimes we call them as datagrams
 
 
-parallel connections:
+Parallel connections:
+
+
+Persistent Connections:
+
+1. Create a new socket.
+2. send a request.
+3. get a response.
+4. close the socket.
+
+
+Number of request per page has grown.
+persistent connection are the default type of connection in HTTP 1.1. A persistent connections stays open after the completion of one request response transaction that lead the browser with an already open socket that it can use to continue making request to the server.
+
+
+
 
 
 
